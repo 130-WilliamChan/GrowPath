@@ -17,4 +17,4 @@
     <style name="SplashTheme" parent="Theme.GrowPath">
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
-</resources>ces>
+</resources>
