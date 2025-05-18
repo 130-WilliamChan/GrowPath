@@ -1,5 +1,3 @@
-
-// app/src/main/java/com/example/growpath/DetailActivity.kt
 package com.example.growpath
 
 import android.os.Bundle

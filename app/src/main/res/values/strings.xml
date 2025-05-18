@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GrowPath</string>
     <string name="login">Login</string>
@@ -17,4 +18,5 @@
     <string name="home">Home</string>
     <string name="milestone">Milestone</string>
     <string name="or">or</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et magna in lacinia in tempor a fringilla. Nullam quis interdum augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. Curabitur pellentesque nibh nibh, at maximus ante fermentum sit amet. Pellentesque commodo lacus at sodales sodales.</string>
 </resources>
