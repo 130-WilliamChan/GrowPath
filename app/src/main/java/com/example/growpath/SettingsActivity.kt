@@ -6,6 +6,9 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.growpath.databinding.ActivitySettingsBinding
+import com.example.growpath.PomodoroActivity
+import com.example.growpath.HomeActivity
+import android.content.Intent
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -91,7 +94,7 @@ class SettingsActivity : AppCompatActivity() {
                 }
                 R.id.navigation_home -> {
                     // Navigate to Home
-                    startActivity(Intent(this, HomeActivity::class.java))
+                    startActivity(inIntent(this, HomeActivity::class.java))
                     return@setOnItemSelectedListener true
                 }
                 R.id.navigation_settings -> {
@@ -106,8 +109,12 @@ class SettingsActivity : AppCompatActivity() {
         binding.bottomNavigation.selectedItemId = R.id.navigation_settings
     }
 
+    private fun inIntent(context: android.content.Context, clazz: Class<*>): Intent {
+        return Intent(context, clazz)
+    }
+
     companion object {
         fun newIntent(context: android.content.Context) = android.content.Intent(context, SettingsActivity::class.java)
-        }
+    }
 }
 
